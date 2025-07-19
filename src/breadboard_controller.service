@@ -1,5 +1,5 @@
 [Unit]
-Description=NES Style Breadboard GPIO Controller
+Description=NES Style GPIO Breadboard Controller
 After=network.target emulationstation.service
 
 [Service]

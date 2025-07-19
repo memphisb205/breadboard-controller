@@ -1,4 +1,4 @@
-# breadboard-controller
+# NES Style GPIO Breadboard Controller
 
 ## Wiring Diagram
 
