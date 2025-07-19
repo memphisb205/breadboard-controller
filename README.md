@@ -13,7 +13,7 @@ sudo apt update
 
 sudo apt install -y gcc build-essential wiringpi
 
-sudo modprobde uinput
+sudo modprobe uinput
 
 echo uinput | sudo tee -a /etc/modules
 
