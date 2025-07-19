@@ -5,7 +5,7 @@
 ### Prerequisites:
 sudo apt update
 
-sudo apt install wiringpi build-essential
+sudo apt install -y gcc build-essential wiringpi
 
 sudo modprobde uinput
 
