@@ -1,5 +1,11 @@
 # breadboard-controller
 
+## Wiring Diagram
+
+This diagram shows how the Raspberry Pi GPIO pins are connected to the breadboard buttons.
+
+![Wiring Diagram](wiring_diagram.png)
+
 ## Installation Instructions:
 
 ### Prerequisites:
