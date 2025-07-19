@@ -1,0 +1,23 @@
+[Unit]
+Description=NES Style Breadboard GPIO Controller
+After=network.target emulationstation.service
+
+[Service]
+ExecStartPre=/sbin/modprobe uinput
+ExecStartPre=/bin/sleep 5
+ExecStart=/home/pi/bb_controller
+WorkingDirectory=/home/pi
+restart=always
+User=root
+Restart=always
+User=root
+StandardOutput=journal
+StandardError=journal
+AmbientCapabilities=CAP_SYS_RAWIO
+CapabilityBoundingSet=CAP_SYS_RAWIO
+ProtectHome=no
+PrivateDevices=no
+
+[Install]
+WantedBy=multi-user.target
+
