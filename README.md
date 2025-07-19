@@ -21,7 +21,7 @@ echo uinput | sudo tee -a /etc/modules
 ### Install:
 git clone https://github.com/memphisb205/breadboard-controller.git
 
-cd breadboard-controller
+cd breadboard-controller/src
 
 make
 
