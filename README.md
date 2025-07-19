@@ -1,6 +1,6 @@
 # breadboard-controller
 
-Installation Instructions:
+# Installation Instructions:
 
 Prerequisites:
 sudo apt update
