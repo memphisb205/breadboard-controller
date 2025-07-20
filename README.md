@@ -1,5 +1,11 @@
 # GPIO Breadboard Controller
 
+A Raspberry Pi GPIO-based game controller built on a breadboard with push buttons, written in C.
+
+Simulates keyboard input using the Linux uinput subsystem and autostarts at boot via a systemd service.
+
+Designed to integrate seamlessly with RetroPie for classic gaming.
+
 ## Wiring Diagram
 
 This diagram shows how the Raspberry Pi GPIO pins are connected to the breadboard buttons.
