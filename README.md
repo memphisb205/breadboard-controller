@@ -8,7 +8,8 @@ This diagram shows how the Raspberry Pi GPIO pins are connected to the breadboar
 
 ## Installation Instructions:
 
-### Prerequisites:
+### Dependecies:
+'''bash
 sudo apt update
 
 sudo apt install -y gcc build-essential wiringpi
