@@ -8,33 +8,25 @@ This diagram shows how the Raspberry Pi GPIO pins are connected to the breadboar
 
 ## Installation Instructions:
 
-### Dependecies:
-'''bash
+```bash
+# Dependecies:
 sudo apt update
-
 sudo apt install -y gcc build-essential wiringpi
-
 sudo modprobe uinput
-
 echo uinput | sudo tee -a /etc/modules
 
-
-### Install:
+# Install:
 git clone https://github.com/memphisb205/breadboard-controller.git
-
 cd breadboard-controller/src
-
 make
-
 make install
 
-
-### Clean Up Build Files:
+# Clean Up Build Files:
 make clean
 
-
-### Uninstall:
+# Uninstall:
 make uninstall
+```
 
 ## Roadmap 🗺️
 - Analog joystick support for expanded game compatibility
