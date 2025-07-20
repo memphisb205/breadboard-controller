@@ -1,4 +1,4 @@
-# NES Style GPIO Breadboard Controller
+# GPIO Breadboard Controller
 
 ## Wiring Diagram
 
@@ -34,4 +34,13 @@ make clean
 
 ### Uninstall:
 make uninstall
+
+## Roadmap 🗺️
+- Analog joystick support for expanded game compatibility
+
+- Configurable GPIO pin mapping via a config file
+
+- LED activity indicator to show controller status
+
+
 
